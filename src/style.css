@@ -1,0 +1,338 @@
+/* Header Styles */
+.bg-white {
+    background-color: white;
+  }
+  
+  
+  .max-w-7xl {
+    max-width: 80rem;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .space-x-8 > * + * {
+    margin-left: 2rem;
+  }
+  
+  .space-x-6 > * + * {
+    margin-left: 1.5rem;
+  }
+  
+  .h-8 {
+    height: 2rem;
+  }
+  
+  .w-96 {
+    width: 24rem;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .border {
+    border: 1px solid #e5e7eb;
+  }
+  
+  
+  .w-6 {
+    width: 1.5rem;
+  }
+  
+  .h-6 {
+    height: 1.5rem;
+  }
+  
+  .text-gray-600 {
+    color: #4b5563;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .group:hover .group-hover\:block {
+    display: block;
+  }
+
+  .group {
+    background-color: white;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .z-10 {
+    z-index: 10;
+  }
+  
+  .w-48 {
+    width: 12rem;
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Product Grid Styles */
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  
+  .md\:grid-cols-3 {
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  
+  .lg\:grid-cols-4 {
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+  
+  .gap-6 {
+    gap: 1.5rem;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .p-0 {
+    padding: 0;
+  }
+  
+  .h-64 {
+    height: 16rem;
+  }
+  
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .text-gray-500 {
+    color: #6b7280;
+  }
+  
+  .pt-0 {
+    padding-top: 0;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .line-through {
+    text-decoration: line-through;
+  }
+  
+  .text-green-600 {
+    color: #059669;
+  }
+  
+  /* Product Details Styles */
+  .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .text-blue-600 {
+    color: #2563eb;
+  }
+  
+  .space-y-4 > * + * {
+    margin-top: 1rem;
+  }
+  
+  .h-\[500px\] {
+    height: 500px;
+  }
+  
+  .ml-4 {
+    margin-left: 1rem;
+  }
+  
+  .w-\[500px\] {
+    width: 500px;
+  }
+  
+  .z-50 {
+    z-index: 50;
+  }
+  
+  .w-\[200\%\] {
+    width: 200%;
+  }
+  
+  .h-\[200\%\] {
+    height: 200%;
+  }
+  
+  .flex-shrink-0 {
+    flex-shrink: 0;
+  }
+  
+  .border-2 {
+    border-width: 2px;
+  }
+  
+  .border-pink-500 {
+    border-color: #ec4899;
+  }
+  
+  .border-gray-200 {
+    border-color: #e5e7eb;
+  }
+  
+  .w-16 {
+    width: 6rem;
+  }
+  
+  .h-16 {
+    height: 6rem;
+  }
+  
+  .border-b {
+    border-bottom-width: 1px;
+  }
+  
+  .pb-4 {
+    padding-bottom: 1rem;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .mb-1 {
+    margin-bottom: 0.25rem;
+  }
+  
+  .items-baseline {
+    align-items: baseline;
+  }
+  
+  .text-orange-500 {
+    color: #f97316;
+  }
+  
+  .text-xs {
+    font-size: 0.75rem;
+  }
+  
+  .space-x-4 > * + * {
+    margin-left: 1rem;
+  }
+  
+  .px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .text-pink-500 {
+    color: #ec4899;
+  }
+  
+  .hover\:bg-pink-50:hover {
+    background-color: #fdf2f8;
+  }
+  
+  .bg-pink-500 {
+    background-color: #ec4899;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .hover\:bg-pink-600:hover {
+    background-color: #db2777;
+  }
+  
+  .border-t {
+    border-top-width: 1px;
+  }
+  
+  .pt-4 {
+    padding-top: 1rem;
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .gap-y-4 {
+    row-gap: 1rem;
+  }
+
+  .border-none {
+    border: none;
+  }
+
+ul {
+    list-style: none;
+}
+
